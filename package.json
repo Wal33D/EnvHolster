@@ -1,0 +1,16 @@
+{
+	"name": "envholster",
+	"version": "1.0.0",
+	"description": "Rotate trhorugh as many ENVs as you'd like, index stored on disk, mongo, or memory.",
+	"author": "WAL33D",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"build": "tsc",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"license": "MIT",
+	"dependencies": {
+		"mongodb": "^6.7.0"
+	}
+}
